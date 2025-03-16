@@ -31,6 +31,8 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           path: "."
+          max-line-length: 100
+          exclude: "venv,.git"
 
       - name: Exécuter les tests
         run: |
