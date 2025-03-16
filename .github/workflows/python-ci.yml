@@ -32,7 +32,7 @@ jobs:
         with:
           path: "."
           max-line-length: "100"
-          exclude: "venv,.git"
+          exclude: "venv ,.git"
 
       - name: Exécuter les tests
         run: |
