@@ -1,4 +1,4 @@
-name: Python CI
+name: CI/CD Documentation Deployment
 
 on:
   push:
