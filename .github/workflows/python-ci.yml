@@ -31,7 +31,7 @@ jobs:
         uses: py-actions/flake8@v2
         with:
           path: "."          
-          exclude: "venv ,.git"
+          exclude: "venv"
 
       - name: Exécuter les tests
         run: |
