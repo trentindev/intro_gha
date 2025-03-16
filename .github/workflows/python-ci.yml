@@ -30,8 +30,7 @@ jobs:
       - name: Vérifier la qualité du code avec Flake8
         uses: py-actions/flake8@v2
         with:
-          path: "."
-          max-line-length: "100"
+          path: "."          
           exclude: "venv ,.git"
 
       - name: Exécuter les tests
