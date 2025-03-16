@@ -1,3 +1,0 @@
-[flake8]
-max-line-length = 100  # Augmente la limite de caractères par ligne
-exclude = venv, .git  # Exclut le dossier venv des vérifications
